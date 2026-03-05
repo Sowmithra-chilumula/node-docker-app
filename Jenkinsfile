@@ -26,7 +26,11 @@ pipeline {
         }
 
         
-        
+        stage('Push Docker Image') {
+            steps {
+                sh 'docker push Sowmithra-chilumula/node-docker-app:${BUILD_NUMBER}'
+            }
+        }
         
         
         
