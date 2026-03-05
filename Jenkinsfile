@@ -25,7 +25,10 @@ pipeline {
             }
         }
 
-    
+        
+        
+        
+        
         
         stage('Create container') {
             steps {
